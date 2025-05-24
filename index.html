@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image-Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="full-img-modal" role="dialog" aria-modal="true" aria-label="Expanded photo view">
+        <span class="close-btn" role="button" aria-label="Close full image view" tabindex="0">&times;</span>
+        <span class="nav-arrow nav-left" role="button" aria-label="Previous photo" tabindex="0">&#10094;</span>
+        <img id="expandedImg" src="Images/jpg1.png" alt="Expanded Image" />
+        <span class="nav-arrow nav-right" role="button" aria-label="Next photo" tabindex="0">&#10095;</span>
+    </div>
+    
+
+    <div class="img-gallery">
+        <img src="Images/jpg1.png" onclick="openFullImg(this.src)">
+        <img src="Images/jpg2.png" onclick="openFullImg(this.src)">
+        <img src="Images/jpg3.png" onclick="openFullImg(this.src)">
+        <img src="Images/jpg4.png" onclick="openFullImg(this.src)">
+        <img src="Images/jpg5.png" onclick="openFullImg(this.src)">
+        <img src="Images/jpg6.png" onclick="openFullImg(this.src)">
+        <img src="Images/jpg7.png" onclick="openFullImg(this.src)">
+        <img src="Images/jpg8.png" onclick="openFullImg(this.src)">
+        <img src="Images/jpg9.png" onclick="openFullImg(this.src)">
+        <img src="Images/jpg10.png" onclick="openFullImg(this.src)">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
