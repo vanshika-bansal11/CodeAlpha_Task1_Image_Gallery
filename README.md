@@ -12,7 +12,5 @@ This is a responsive Image Gallery web project built using HTML, CSS, and JavaSc
 <br>
 🛠️ Technologies Used<br>
 <b></b>HTML</b> – for structuring the web page<br>
-<br>
 <b>CSS</b> – for styling and layout<br>
-
 <b>JavaScript</b> – for interactive functionality and slide bar logic
